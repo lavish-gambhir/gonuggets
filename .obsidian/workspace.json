@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "47bc71721cddba97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tips and Tricks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5536c9a5a9ee0fc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tips and Tricks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56a1a6f2ab2a8c0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tips and Tricks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memory Optimization.md",
+                "file": "Tips and Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memory Optimization.md",
+                "file": "Tips and Tricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memory Optimization.md"
+                "file": "Tips and Tricks.md"
               }
             }
           }
@@ -146,8 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15243bd19374f0e6",
+  "active": "56a1a6f2ab2a8c0c",
   "lastOpenFiles": [
+    "topics to study.md",
+    "Tips and Tricks.md",
+    "Tracing.md",
     "Memory Optimization.md"
   ]
 }
