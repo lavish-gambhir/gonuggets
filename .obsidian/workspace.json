@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dae60a25f10a8950",
@@ -198,6 +197,7 @@
   },
   "active": "6cf14d3df437b80b",
   "lastOpenFiles": [
+    "sharp",
     "Untitled.md",
     "Tracing.md",
     "Tips and Tricks.md",
