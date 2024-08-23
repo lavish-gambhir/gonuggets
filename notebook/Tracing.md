@@ -20,7 +20,7 @@ Why trace?A
 
 There are 3 main steps to initialize a tracer:
 1. Identify the app as a resource: `resource.New`
-2. Init an Exported (depends on the backend): `jaeger.New`
+2. Init an Exporter (depends on the backend): `jaeger.New`
 3. Init a tracer provider: `trace.NewTracerProvider`
 
 ---
@@ -144,4 +144,11 @@ provider := trace.NewTracerProvider(
 	trace.WithSampler(trace.AlwaysSample()),
 	...
 )
+```
+
+#### Things to take care of while implementation
+- There are two packages for `trace`: 
+```
+	sdktrace "go.opentelemetry.io/otel/sdk/trace" // get actual implementations from here.
+	"go.opentelemetry.io/otel/trace" // get the `TraceProvider` interface from here.
 ```
